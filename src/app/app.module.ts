@@ -9,8 +9,10 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BottomSheetOverviewExampleComponent } from './bottom-sheet-overview-example/bottom-sheet-overview-example.component';
 import { ButtonOverviewExampleComponent } from './button-overview-example/button-overview-example.component';
+import { SingleToggleButtonsExampleComponent } from './single-toggle-buttons-example/single-toggle-buttons-example.component';
+import { MultipleToggleButtonsExampleComponent } from './multiple-toggle-buttons-example/multiple-toggle-buttons-example.component';
 @NgModule({
-  declarations: [AppComponent, BottomSheetOverviewExampleComponent, ButtonOverviewExampleComponent],
+  declarations: [AppComponent, BottomSheetOverviewExampleComponent, ButtonOverviewExampleComponent, SingleToggleButtonsExampleComponent, MultipleToggleButtonsExampleComponent],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
